@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--así se hacen los comentarios en Visual Studio Code :D-->
+<!--Esta es mi primera página web.  By: Jacqui G<3-->
+    <head>
+<!--no se ven en un sitio web-->
+    <title>Página exclusiva de Billie Eilish</title>
+    <meta charset="UTF-8">
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital@1&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <!--si se ven en el sitio web-->
+    <h1>Fotos de Billie mi novia preciosa</h1>
+
+    <h3>Imagenes de Billie Eilish</h3>
+    <!--Imagen desde internet-->
+    <img class="img1" src="https://i.pinimg.com/564x/ab/31/39/ab3139d4ac575d0766dc5aece87f7ec1.jpg">
+    <br>
+    <!--imagen desde computadora-->
+    <img class="img2" src="imagenes/Billie bb.jpg">
+
+    <!---crear enlaces externos-->
+    <p>Si quieres ver más imágenes de Billie Eilish, <a href="https://instagram.com/billieeilish?igshid=MzRlODBiNWFlZA==" target="_blank">da click en este enlace</a>.</p>
+
+    <h3>Listas de Billie Eilish <3</h3>
+
+    <p>3 cosas que Billie Eilish <strong>ama</strong></p>
+
+    <!--Lista ordenada-->
+    <ol> <!--Ordered list-->
+        <li>A sus fans, principalmente</li> <!--List item-->
+        <li>La ropa holgada</li>
+        <li>A Lana del Rey jejeje (yo tmbn)</li>
+    </ol>
+
+    <p>3 cosas que Billie Eilish <i>odia :c</i></p>
+
+    <!--Lista desordenada-->
+    <ul> <!--Unorder list-->
+        <li>Su canción "watch"</li>
+        <li>Ir a eventos</li>
+        <li>El ambiente de los estudios :D</li>
+    </ul>
+
+    <!--Formularios-->
+    <form>
+        <!--Form con botones de radio-->
+        <p>¿Billie Eilish es tu artista favorita?</p>
+        <label>
+            <input id="billie" 
+            type="radio" 
+            value="billie" 
+            name="billie-otro">Billie
+        </label>
+        <br>
+        <label>
+            <input id="otro"
+            type="radio"
+            value="otro"
+            name="billie-otro">Otro
+        </label>
+
+     <!--Form con casillas de verificación-->
+     <p>¿Qué tipo de personalidad tiene Billie Eilish?</p>
+     <label>
+        <input id="risueña"
+        type="checkbox"
+        value="risueña"
+        name="personalidad" 
+        checked>Risueña
+     </label>
+     <br>
+     <label>
+        <input id="enojona"
+        type="checkbox"
+        value="enojona"
+        name="personalidad">Enojona
+     </label>
+     <br>
+     <label>
+        <input id="depresiva"
+        type="checkbox"
+        value="depresiva"
+        name="personalidad">Depresiva
+     </label>
+    </form>
+ </body>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx" target="_blank">Tecnolochicas PRO</a></small></p>
+    </footer>
+</html>

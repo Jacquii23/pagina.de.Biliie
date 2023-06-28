@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(174, 157, 171);
+    color: #111010;
+    font-family: 'Playfair', serif;
+}
+
+h3 {
+    color: #754155;
+    font-size: 25px;
+}
+
+h1, p {
+    color: #686382;
+}
+
+img {
+   /* width: 300px;
+    height: 300px;
+    /*border-style: ; -para estilo de borde en imagen*/
+    /*border-color: ; -para color en el borde */
+    margin-left: 30px;
+    margin-bottom: 15px;
+    padding: 5px;/*Centrar o ajustar la imagen */
+}
+/*En el caso de tener 2 imagenes de diferente tamaño (cuadrada, rectangular) */
+.img1 {
+    width: 300px;
+    height: 300px;
+}
+
+.img2 {
+    width: 300px;
+    height: 500px;
+}
+
+a, small {
+    color: #420c32;
+}
+
+/*Comentarios como en c++*/
+/*My brand new logo (paleta de colores/colores combinados) */
+/*Google fonts para la tipografía */
